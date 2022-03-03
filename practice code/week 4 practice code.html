@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>code practice</title>
+  <style>
+      :root {
+          --primary-color: #1e90ff;
+          --base-text-color: #black;
+      }
+      body{
+          background-color: var(--primary-color);
+          color: var(--base-text-color)
+      }
+      .invert {
+          background-color: var(--primary-color);
+          color: var(--base-text-color);
+      }
+  </style>
+  </head>
+  <body>
+      <h1>TOGGLE Dark mode Example </h1>
+
+      <button class="js-toggle-class" data-toggle-me>Toggle me</button>
+    
+<!-- make sure same element js-toggle-class to button>-->
+<script>
+const buttonElement = document.querySelector('.js-toggle-class')
+
+//Click on button
+// buttonElement.addEventListener('click', function() {
+// const bodyElement = document.querySelector('body')
+// bodyElement.classList.toggle('invert');
+// })
+
+buttonElement.addEventListener('click', function() {
+    const bodyElement = document.querySelector('root')
+    bodyElement.classList.toggle('--primary-color', '#908098')
+})
+
+</script>
+  </body>
+  </html>

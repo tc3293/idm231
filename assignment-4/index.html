@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiac</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<body class="topbar">
+    <section class="A">
+        <h1>Which Genshin Zodiac Are You?</h1>
+        <h2>Enter your Birthdate</h2>
+        <div class="primary">
+        <!--add label if you want and it is title called birthday
+            <label for="birthday">Birthday</label> -->
+            <input id="dateInfo" type="date" name="birthday">
+            <button id="button" onclick="chooseSelect()" type="button" name="submit">Enter</button>
+    </div>
+    </section>
+<!--java target item the pic, text below here-->
+<div class="iamstupid">
+        <h3>You are <span id="horoscopeText">...</span></h3>
+        <p id="picture"></p>
+        <p id="text"></p>
+
+<br>
+<br>
+    <script src="birth.js"></script>
+</div>
+</body>
+</html>
