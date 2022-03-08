@@ -90,8 +90,12 @@ h3 {
     display: block;
     color: #cfe668;
     align-items: center;
-    max-width:fit-content;
+    max-width: 500px;
     margin: 15px auto;
+    background: linear-gradient(#db9a9a, rgb(221, 37, 37));
+    font-size: 20px;
+    border-radius: 5px;
+    opacity: 0.9;
 }
 
 /* come back fix this!!!!!!!
