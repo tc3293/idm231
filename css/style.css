@@ -3,6 +3,7 @@ html {
     resize: both;
     overflow: scroll;
   }
+/*----------------------------------------------------------------------------*/
 
 /* This is selecting date button */
 .primary {
@@ -14,7 +15,7 @@ html {
     font-size: 170%; 
     padding: 3px;
     font-weight: bold;
-    opacity: 0.8;
+    opacity: 0.;
 }
 
 
@@ -22,13 +23,33 @@ html {
 .primary button {
     width: 90px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 85%; 
+    font-size: 20px; 
     margin: 25px auto;
     font-weight: bold;
     padding: 10px;
-    border-radius: 45%;
+    border-radius: 20px;
     background: linear-gradient(#db9a9a, rgb(221, 37, 37));
+    outline: none;
+    cursor: pointer; 
+    color: #d4e296;
+    border: none;
+    box-shadow: 0 1px #d4e296;
 }
+
+.primary button:active{
+    background: linear-gradient(#db9a9a, rgb(221, 37, 37));
+    box-shadow: 0 1px #d4e296;
+    transform: translateY(3px);
+}
+
+/*.media {
+/*hover*/
+/* if you want more use comma like this .primary input:hover, */
+.primary button:hover{
+	background: linear-gradient(#967a7a, rgb(185, 73, 73));
+}
+
+/*----------------------------------------------------------------------------*/
 
 /* IMPORTANT NOTE FOR MEDIA */
 .media {
@@ -98,6 +119,8 @@ h3 {
     opacity: 0.9;
 }
 
+/*----------------------------------------------------------------------------*/
+
 /* come back fix this!!!!!!!
 
 {
@@ -129,44 +152,65 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
-/*hover*/
-/* if you want more use comma like this .primary input:hover, */
-.primary button:hover{
-	color: #cfe668;
+/*----------------------------------------------------------------------------*/
+
+/*button character 2nd page button*/
+.character button{
+    width: 170px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px; 
+    margin: 25px auto;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 20px;
+    background: linear-gradient(#db9a9a, rgb(221, 37, 37));
+    outline: none;
+    cursor: pointer; 
+    color: #d4e296;
+    border: none;
+    box-shadow: 0 1px #d4e296;
     opacity: 0.9;
 }
 
-/*button character 2nd page*/
-.character button{
+.character button:hover{
+    background: linear-gradient(#967a7a, rgb(185, 73, 73));
+    }
+.character button:active{
     background: linear-gradient(#db9a9a, rgb(221, 37, 37));
-	color: #d4e296;
-    opacity: 0.8;
-    border: none;
-    outline:none;
-    display: block;
-    font-size: 1em;
-    padding: 10px 25px;
-    border-radius: 5px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    justify-content:space-between;
-    cursor: pointer;
+    box-shadow: 0 2px #d4e296;
+    transform: translateY(3px);
 }
 
+/*----------------------------------------------------------------------------*/
+
+/*character button 3rd page */
 .character1 button {
-    background: linear-gradient(#db9a9a, rgb(221, 37, 37));
-	color: #d4e296;
-    opacity: 0.8;
-    border: none;
-    outline:none;
-    display: block;
-    font-size: 1em;
-    padding: 10px 25px;
-    border-radius: 5px;
+    width: 100px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 15px 0 25px 160px;
-    cursor: pointer;
+    font-size: 17px; 
+    margin: 20px auto;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 20px;
+    background: linear-gradient(#db9a9a, rgb(221, 37, 37));
+    outline: none;
+    cursor: pointer; 
+    color: #d4e296;
+    border: none;
+    box-shadow: 0 1px #d4e296;
+    opacity: 0.9;
 }
 
+.character1 button:hover {
+    background: linear-gradient(#967a7a, rgb(185, 73, 73));
+}
+.character1 button:active{
+    background: linear-gradient(#db9a9a, rgb(221, 37, 37));
+    box-shadow: 0 2px #d4e296;
+    transform: translateY(3px);
+}
+
+/*----------------------------------------------------------------------------*/
 div {
     display: block;
 }
@@ -184,17 +228,133 @@ div {
     }
 }
 
+/*2nd page on touch character card hover animation*/
 .char:hover {
     opacity: 0.7;
 }
 
-.icon {
-    height: 30px;
-    margin: 0 0 -10px 0px;
+/*Icon picture yae 32x32 icon!*/
+.music {
+    margin: 20px 10px;
+}
+.music a{
+    margin: 0 1rem ;
+    padding-top: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 3px;
+    background-color: rgb(206, 104, 104);
+    border-radius: 10px;
+}
+
+.music a:hover{
+    background-color: #d4e296;
+    opacity: 0.8;
+}
+
+.music a:active{
+    background: linear-gradient(#fafae9,#d4e296 );
+    box-shadow: 0 2px #d4e296;
+    transform: translateY(10px);
 }
 
 
-/*.media {
+/*Sound button here*/
+.music button{
+  padding: 10px 20px;
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer; 
+  outline: none;
+  color: #d4e296;
+  background: linear-gradient(#db9a9a, rgb(221, 37, 37));
+  border: none;
+  border-radius: 13px;
+  box-shadow: 0 1px #d4e296;
+}
+
+.music button:hover{
+    background: linear-gradient(#967a7a, rgb(185, 73, 73));
+}
+
+.music button:active{
+    background: linear-gradient(#db9a9a, rgb(221, 37, 37));
+    box-shadow: 0 2px #d4e296;
+    transform: translateY(3px);
+}
+
+/*----------------------------------------------------------------------------*/
+.home-icon {
+    color:#db9a9a;
+    margin: 25px auto;
+    transition: color 0.2s;
+    font-size: 4rem;
+    padding: 10px;
+
+}
+
+.home-icon:hover{
+    color:red;
+}
+
+
+/*---------------------------------------*/
+
+
+/*below here is the help button*/
+.helper {
+    width: 95px;
+    margin: 15px auto;
+    color:#ffffff;
+  }
+  
+.helper .question {
+    height: 40px;
+    width: 85px;
+    background: linear-gradient(#f17979, rgb(221, 37, 37));
+    color:#d4e296;
+    font-size: 17px;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 0.9;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    box-shadow: 0 1px #d4e296;
+}
+.helper .question:hover {
+    background: linear-gradient(#967a7a, rgb(185, 73, 73));
+    opacity: 0.8;
+}
+
+.helper .pop, .helper .pop2 {
+    width: 290px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(#ee8b8b, rgb(221, 37, 37));
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 30px;
+}
+  
+.helper .pop {
+    left: -100px;
+    top: 5px;
+    height: 220px
+}
+  
+.helper:hover .pop {
+    opacity: 1;
+    height: 220px;
+}
+
+
+/* Just the note how to code css nice
+.media {
     display: flex;
     align-items: center;
     justify-content: center;

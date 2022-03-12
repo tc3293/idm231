@@ -1,13 +1,14 @@
 //backup code if not working and use this variable to html and function in css:  document.getElementById('sound').play();//
 //target function//
 
+
 //below code is for music play from index.html//
 var hehe = document.getElementById('pretty');
 function bob() {
   hehe.currentTime= 0;
 }
 
-//below here...
+//below here... if not neccessary to use it
 //myAudio = new Audio('mp3/liyue.mp3');
 //myAudio.addEventListerner('button', function(){
   //this.currentTime = 0;

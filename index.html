@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zodiac</title>
     <link rel="stylesheet" href="css/style.css">
+<!--------------------------------------------------------------------------------------------->
 </head>
-<div class="music" id="music">
-    <img class="icon" src="image/music.png" alt="start">
+<br>
+<div class="music">
+    <a class="icon1" href="index.html" rel="Home">
+        <img src="image/home.png"></a>
 <audio src="mp3/liyue.mp3" id="pretty"></audio>
 <button onclick="document.getElementById('pretty').play()">Play</button>
 <button onclick="document.getElementById('pretty').pause()">Pause</button>
 </div>
+<!--------------------------------------------------------------------------------------------->
 <br>
 <br>
 <br>
@@ -42,7 +46,23 @@
         <button type="button">All Character</button></a>
 </div>
 </div>
-
+<div class="helper">
+    <div class="question">Help?</div>
+    <div class="pop">
+      <p> 1) To get the character, enter your <strong>"Birthday"</strong> or choose a <strong>"Birthdate"</strong> 
+        from the <strong>"Calendar"</strong> and click <strong>"Enter"</strong>!</p>
+      <p> 2) If you want to see all the character, click on <strong>"All Character"</strong></p>
+      <p> 3) There are three buttons at the top of screen: an icon for the <strong>Home</strong> page, and the <strong>Play</strong> button to begin the music.</p>
+         <br>
+         <br>
+<!-- if i want to separate use this ? at bottom for new ? button  
+    <form>
+    <div id="anim">
+        <span class="markapp" data-markapp="1)To get the character, enter your birthdate or choose a birthday from the calendar and click Enter!&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        2) If you want to see all the character, click on All Character &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        3) At the top of the screen, there are three buttons: an icon for the Home page, a play button, and a play button to begin the music.">Help?</span>
+    </div>
+</form> -->
 <script src="java/app.js"></script>
 </body>
 </html>

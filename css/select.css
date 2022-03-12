@@ -34,6 +34,8 @@ h1 {
     font-size: 21px;
 }
 
+/*----------------------------------------------------------------------------*/
+
 /*div start*/
 .step1 {
     display: grid;
@@ -55,6 +57,7 @@ h1 {
     -webkit-text-stroke-color: black;
 }
 
+/*----------------------------------------------------------------------------*/
 .step2 img {
   display: block;
   margin: 0 auto;
@@ -69,6 +72,8 @@ img:hover{
   -webkit-transform: scale(2); /* Safari 3-8 */
   transform: scale(1.2); 
   }
+
+/*----------------------------------------------------------------------------*/  
 .character button{
     background: linear-gradient(#db9a9a, rgb(221, 37, 37));
 	color: #d4e296;;
@@ -82,8 +87,29 @@ img:hover{
     font-family: Georgia, 'Times New Roman', Times, serif;
     justify-content:space-between;
     cursor: pointer;
-    margin: 10px auto;
+    margin: 15px auto;
+    font-size: 17px;
+    font-weight: bold; 
+    padding: 15px;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer; 
+    border: none;
+    box-shadow: 0 1px #d4e296;
+    opacity: 0.9;
 }
+
+.character button:hover{
+    background: linear-gradient(#967a7a, rgb(185, 73, 73));
+}
+
+.character button:active{
+    background: linear-gradient(#db9a9a, rgb(221, 37, 37));
+    box-shadow: 0 2px #d4e296;
+    transform: translateY(3px);
+}
+
+/*----------------------------------------------------------------------------*/
 
 /*music icon and button*/
 .icon {
