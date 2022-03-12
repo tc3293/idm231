@@ -1,0 +1,93 @@
+h1 {
+    text-align: center;
+    font-family: 'monospace';
+    font-size: 350%; 
+    background-size: 100px;
+    opacity: 0.9;
+    background: linear-gradient(#db9a9a, rgb(221, 37, 37));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 1%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+/*body start*/
+.topbar {
+    background: url('https://preview.redd.it/66ic9c791ih61.png?auto=webp&s=967caa3ebc04e9262d7ba83ee0534015a3a5cb5b') no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  h2 {
+    text-align: center;
+    display: block;
+    background: linear-gradient(#db9a9a, rgb(221, 37, 37));
+    color: #d4e296;
+    align-items: center;
+    max-width: 200px;
+    margin: 15px auto;
+    opacity: 0.8;
+    border-radius: 5px;
+    font-size: 21px;
+}
+
+/*div start*/
+.step1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.text p{
+    padding: 10px 30px;
+    border-radius: 40px;
+    background: linear-gradient(#c25252, rgb(221, 37, 37));
+    color: #d4e296;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    opacity: 0.8;
+    font-weight: bolder;
+    font-size: 20px;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+}
+
+.step2 img {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  cursor: pointer;
+  padding: 50px;
+  transition: transform .2s;
+}
+
+img:hover{
+  -ms-transform: scale(3); /* IE 9 */
+  -webkit-transform: scale(2); /* Safari 3-8 */
+  transform: scale(1.2); 
+  }
+.character button{
+    background: linear-gradient(#db9a9a, rgb(221, 37, 37));
+	color: #d4e296;;
+    opacity: 0.8;
+    border: none;
+    outline:none;
+    display: block;
+    font-size: 1em;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content:space-between;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+/*music icon and button*/
+.icon {
+    height: 30px;
+    margin: 0 0 -10px 0px;
+    
+}

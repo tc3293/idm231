@@ -7,6 +7,12 @@
     <title>Zodiac</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+<div class="music" id="music">
+    <img class="icon" src="image/music.png" alt="start">
+<audio src="mp3/liyue.mp3" id="pretty"></audio>
+<button onclick="document.getElementById('pretty').play()">Play</button>
+<button onclick="document.getElementById('pretty').pause()">Pause</button>
+</div>
 <br>
 <br>
 <br>
@@ -30,15 +36,13 @@
         <h3>You are <span id="horoscopeText">...</span></h3>
         <p id="picture"></p>
         <p id="text"></p>
-
-<br>
 <br>
 <div class="character">
-    <h2><a href="character.html">List Character</a></h2>
-
-
-    <script src="java/app.js"></script>
+    <a href="character.html">
+        <button type="button">All Character</button></a>
 </div>
 </div>
+
+<script src="java/app.js"></script>
 </body>
 </html>

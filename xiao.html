@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiao</title>
+    <link rel="stylesheet" href="css/select.css">
+</head>
+<!-- Either If I want to add music on character or NOT
+    <div class="music" id="music">
+    <img class="icon" src="image/music.png" alt="start">
+<audio src="mp3/liyue.mp3" id="pretty"></audio>
+<button onclick="document.getElementById('pretty').play()">Play</button>
+<button onclick="document.getElementById('pretty').pause()">Pause</button>
+<br>
+</div>
+ -->
+<body class="topbar">
+    <h1>Character</h1>
+    <div class="step1">
+        <div class="step2">
+            <a href="#" class="test">
+            <img src="image/xiao3.png"
+            onmouseover="this.src='image/xiao4.png'" onmouseout="this.src='image/xiao3.png'">
+        </a>
+        </div>
+    <div class="text">
+        <h2>Xiao</h2>
+        <p>His birthday was in April 17th, and he was born under the sign of Aries, which represents the charging Ram and is characterized by rash and passionate behavior. Anemo is Xiao's nature, and it is one of Genshin Impact's seven elements. Anemo is the character of wind or air gusts.</p>
+        <br>
+        <div class="character">
+            <a href="./character.html">
+                <button type="button">Return</button></a>
+            </a>
+        </div>
+    </div>
+    </div>
+    <script src="java/app.js"></script>
+    <script src="java/voice.js"></script>
+    <script>
+        var audio = new Audio("mp3/xiao2.mp3");
+            document.onclick = function() {
+            audio.play();
+            }
+    </script>
+    <audio id="audio" src="mp3/xiao2.mp3"></audio>
+</body>
+</html>

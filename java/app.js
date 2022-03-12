@@ -1,5 +1,20 @@
 //backup code if not working and use this variable to html and function in css:  document.getElementById('sound').play();//
 //target function//
+
+//below code is for music play from index.html//
+var hehe = document.getElementById('pretty');
+function bob() {
+  hehe.currentTime= 0;
+}
+
+//below here...
+//myAudio = new Audio('mp3/liyue.mp3');
+//myAudio.addEventListerner('button', function(){
+  //this.currentTime = 0;
+  //this.play();
+//}, false);
+//myAudio.play();
+
 function chooseSelect(){
   calender = new Date(document.getElementById('dateInfo').value);
   let day = calender.getDate();
@@ -40,7 +55,7 @@ function chooseSelect(){
 } else if (month === 8 && day >= 23 || month === 9 && day <= 22) {
   document.querySelector('#horoscopeText').innerHTML = 'Mona';
   document.getElementById('picture').innerHTML='<img src=https://cdn.discordapp.com/attachments/944000709928562758/948665114909888562/mona1.gif>';
-  document.getElementById('text').innerHTML='Congratulation, You got Mona! Virgo is known for being careful. When it comes to solving difficulties, they are reasonable and systematic. They are driven by a strong desire to develop and seek excellence through practice. Moan was born under the sign of Virgo.';
+  document.getElementById('text').innerHTML='Congratulation, You got Mona! Virgo is known for being careful. When it comes to solving difficulties, they are reasonable and systematic. They are driven by a strong desire to develop and seek excellence through practice. Mona was born under the sign of Virgo.';
   var audio = new Audio('mp3/mona.mp3')
   audio.play();
 } else if (month === 9 && day >= 23 || month === 10 && day <= 22) {

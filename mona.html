@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mona</title>
+    <link rel="stylesheet" href="css/select.css">
+</head>
+<!-- Either If I want to add music on character or NOT
+    <div class="music" id="music">
+    <img class="icon" src="image/music.png" alt="start">
+<audio src="mp3/liyue.mp3" id="pretty"></audio>
+<button onclick="document.getElementById('pretty').play()">Play</button>
+<button onclick="document.getElementById('pretty').pause()">Pause</button>
+<br>
+</div>
+ -->
+<body class="topbar">
+    <h1>Character</h1>
+    <div class="step1">
+        <div class="step2">
+            <a href="#" class="test">
+            <img src="image/mona3.png"
+            onmouseover="this.src='image/mona4.png'" onmouseout="this.src='image/mona3.png'">
+        </a>
+        </div>
+    <div class="text">
+        <h2>Mona</h2>
+        <p>Her birthday was August 31st, and she was born under the Virgo zodiac sign, which symbolizes caution. They are sensible and methodical when it comes to resolving problems. They are motivated by a great desire to grow and improve via practice. Mona's nature is hydro, and it is one of the seven components of Genshin Impact. The nature of water is hydro.</p>
+        <br>
+        <div class="character">
+            <a href="./character.html">
+                <button type="button">Return</button></a>
+            </a>
+        </div>
+    </div>
+    </div>
+    <script src="java/app.js"></script>
+    <script src="java/voice.js"></script>
+    <script>
+        var audio = new Audio("mp3/mona2.mp3");
+            document.onclick = function() {
+            audio.play();
+            }
+    </script>
+    <audio id="audio" src="mp3/mona2.mp3"></audio>
+</body>
+</html>
