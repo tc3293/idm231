@@ -147,9 +147,11 @@ h1 {
     font-size: 350%; 
     background-size: 100px;
     opacity: 0.9;
-    background: linear-gradient(#cfe668, rgb(221, 37, 37));
+    background: linear-gradient(#b5cc4f, rgb(221, 37, 37));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
 }
 
 /*----------------------------------------------------------------------------*/
